@@ -1,7 +1,7 @@
 <img src="https://cdn-icons-png.flaticon.com/512/3196/3196633.png" width="64"> Elysium
 =======
 
-A tool to automatically patch vulnerable Ethereum smart contracts.
+A tool to automatically patch vulnerable Ethereum smart contracts. This repository also includes the data, tools, and results from our paper. Our paper can be found [here](https://arxiv.org/pdf/2108.10071.pdf).
 
 ## Installation Instructions
 
