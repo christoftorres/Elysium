@@ -1,0 +1,30 @@
+{
+    "Error": null,
+    "Timeout": false,
+    "Finished": true,
+    "Time": 0.06112813949584961,
+    "Reentrancy": [
+        {
+            "callOffset": 1070,
+            "sStoreOffset": 1177,
+            "result": "Violating control flow dependencies. CALL: 0x42e, lift: 0x499"
+        },
+        {
+            "callOffset": 1070,
+            "sStoreOffset": 1215,
+            "result": "Violating control flow dependencies. CALL: 0x42e, lift: 0x4bf"
+        },
+        {
+            "callOffset": 1070,
+            "sStoreOffset": 1208,
+            "result": "Violating control flow dependencies. CALL: 0x42e, lift: 0x4b8"
+        },
+        {
+            "callOffset": 1070,
+            "sStoreOffset": 1222,
+            "result": "Violating control flow dependencies. CALL: 0x42e, lift: 0x4c6"
+        }
+    ],
+    "IntegerBugs": [],
+    "UnhandledExceptions": []
+}

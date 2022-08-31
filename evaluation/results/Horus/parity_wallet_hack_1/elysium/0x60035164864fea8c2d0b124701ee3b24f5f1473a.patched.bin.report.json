@@ -1,0 +1,21 @@
+{
+    "patches": [
+        {
+            "bug_type": "leaking_ether",
+            "pc": 284,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH2_0x105 SLOAD PUSH20_0xffffffffffffffffffffffffffffffffffffffff AND CALLER EQ PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        }
+    ],
+    "control_flow_graph_recovery_time": 0.06749081611633301,
+    "control_flow_graph_recovery": "93%",
+    "original_runtime_size": "882 bytes",
+    "patched_runtime_size": "919 bytes",
+    "execution_time": 0.09893512725830078
+}

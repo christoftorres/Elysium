@@ -1,0 +1,9 @@
+{
+    "Error": null,
+    "Timeout": true,
+    "Finished": false,
+    "Time": 60.01881408691406,
+    "Reentrancy": [],
+    "IntegerBugs": [],
+    "UnhandledExceptions": []
+}

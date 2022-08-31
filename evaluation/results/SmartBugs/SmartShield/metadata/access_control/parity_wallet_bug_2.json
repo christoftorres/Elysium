@@ -1,0 +1,1 @@
+{"Reentrancy": [], "IntegerBugs": [], "UnhandledExceptions": [], "AccessControl": [{"offset": 2809, "category": "leaking ether"}, {"offset": 4006, "category": "suicidal"}]}

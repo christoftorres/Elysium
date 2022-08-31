@@ -1,0 +1,152 @@
+{
+    "unhandled_exception": {
+        "contracts": 901,
+        "transactions": 80997,
+        "benign": 78144,
+        "attacks": 2853,
+        "smartshield": {
+            "benign": 63199,
+            "attacks": 2640,
+            "errors": {
+                "out_of_gas": 199,
+                "invalid_jump": 114
+            },
+            "gas_increase": 38.0,
+            "gas_increase_percent": 0.08846467233150972,
+            "size_increase": 20.348433371083427,
+            "size_increase_percent": 1.5171170421245552
+        },
+        "elysium": {
+            "benign": 74379,
+            "attacks": 2853,
+            "errors": {
+                "out_of_gas": 329,
+                "invalid_jump": 3225
+            },
+            "gas_increase": 23.0,
+            "gas_increase_percent": 0.05354440693749273,
+            "size_increase": 12.430774623203645,
+            "size_increase_percent": 0.9264023769885319
+        }
+    },
+    "reentrancy": {
+        "contracts": 44,
+        "transactions": 4593,
+        "benign": 2656,
+        "attacks": 1937,
+        "smartshield": {
+            "benign": 653,
+            "attacks": 33,
+            "errors": {
+                "out_of_gas": 21,
+                "invalid_jump": 0
+            },
+            "gas_increase": 0,
+            "gas_increase_percent": 0,
+            "size_increase": 4.31933644375324,
+            "size_increase_percent": 0.11408706372072881
+        },
+        "elysium": {
+            "benign": 2608,
+            "attacks": 1937,
+            "errors": {
+                "out_of_gas": 64,
+                "invalid_jump": 7
+            },
+            "gas_increase": 25238.0,
+            "gas_increase_percent": 18.595227043316164,
+            "size_increase": 270.3918430562726,
+            "size_increase_percent": 2.6587041598209575
+        }
+    },
+    "integer_overflow": {
+        "contracts": 125,
+        "transactions": 42768,
+        "benign": 42327,
+        "attacks": 441,
+        "smartshield": {
+            "benign": 40996,
+            "attacks": 432,
+            "errors": {
+                "out_of_gas": 1452,
+                "invalid_jump": 15
+            },
+            "gas_increase": 80.0,
+            "gas_increase_percent": 0.3454172366621067,
+            "size_increase": 47.2337962962963,
+            "size_increase_percent": 1.3811016958130315
+        },
+        "elysium": {
+            "benign": 41012,
+            "attacks": 441,
+            "errors": {
+                "out_of_gas": 1451,
+                "invalid_jump": 0
+            },
+            "gas_increase": 58.0,
+            "gas_increase_percent": 0.19835841313269492,
+            "size_increase": 68.12018140589569,
+            "size_increase_percent": 2.1187412175021754
+        }
+    },
+    "parity_wallet_hack_2": {
+        "contracts": 238,
+        "transactions": 358,
+        "benign": 120,
+        "attacks": 238,
+        "smartshield": {
+            "benign": 0,
+            "attacks": 0,
+            "errors": {
+                "out_of_gas": 0,
+                "invalid_jump": 0
+            },
+            "gas_increase": 0,
+            "gas_increase_percent": 0,
+            "size_increase": 0.0,
+            "size_increase_percent": 0.0
+        },
+        "elysium": {
+            "benign": 120,
+            "attacks": 238,
+            "errors": {
+                "out_of_gas": 0,
+                "invalid_jump": 0
+            },
+            "gas_increase": 0,
+            "gas_increase_percent": 0,
+            "size_increase": 36.86134453781513,
+            "size_increase_percent": 3.9324547421994693
+        }
+    },
+    "parity_wallet_hack_1": {
+        "contracts": 585,
+        "transactions": 1877,
+        "benign": 263,
+        "attacks": 1614,
+        "smartshield": {
+            "benign": 0,
+            "attacks": 0,
+            "errors": {
+                "out_of_gas": 1,
+                "invalid_jump": 0
+            },
+            "gas_increase": 0,
+            "gas_increase_percent": 0,
+            "size_increase": 0.0,
+            "size_increase_percent": 0.0
+        },
+        "elysium": {
+            "benign": 263,
+            "attacks": 1614,
+            "errors": {
+                "out_of_gas": 1,
+                "invalid_jump": 0
+            },
+            "gas_increase": 0,
+            "gas_increase_percent": 0,
+            "size_increase": 36.861214374225526,
+            "size_increase_percent": 3.986789266376596
+        }
+    }
+}

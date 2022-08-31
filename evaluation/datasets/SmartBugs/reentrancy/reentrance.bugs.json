@@ -1,0 +1,32 @@
+[
+    {
+        "code_coverage": 99.6,
+        "execution_time": 1.7477729320526123,
+        "tool": "Osiris",
+        "pc": 305,
+        "type": "overflow",
+        "opcode": "ADD"
+    },
+    {
+        "code_coverage": 99.6,
+        "execution_time": 2.598532199859619,
+        "tool": "Oyente",
+        "pc": 365,
+        "type": "reentrancy"
+    },
+    {
+        "code_coverage": 99.55,
+        "execution_time": 43.06236386299133,
+        "tool": "Mythril",
+        "pc": 365,
+        "type": "unhandled exception"
+    },
+    {
+        "code_coverage": 99.6,
+        "execution_time": 1.7477729320526123,
+        "tool": "Osiris",
+        "pc": 389,
+        "type": "underflow",
+        "opcode": "SUB"
+    }
+]

@@ -1,0 +1,32 @@
+{
+    "patches": [
+        {
+            "bug_type": "leaking_ether",
+            "pc": 2809,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 SLOAD PUSH20_0xffffffffffffffffffffffffffffffffffffffff AND CALLER EQ PUSH_jump_loc_1 JUMPI JUMPDEST PUSH1_0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1_0x20 ADD SWAP1 RETURN JUMPDEST_jump_loc_1",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "suicidal",
+            "pc": 4006,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x1 SLOAD PUSH20_0xffffffffffffffffffffffffffffffffffffffff AND CALLER EQ PUSH_jump_loc_1 JUMPI JUMPDEST PUSH1_0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1_0x20 ADD SWAP1 RETURN JUMPDEST_jump_loc_1",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        }
+    ],
+    "control_flow_graph_recovery": "100%",
+    "original_runtime_size": "5535 bytes",
+    "patched_runtime_size": "5635 bytes",
+    "execution_time": 74.30546188354492
+}

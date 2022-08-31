@@ -1,0 +1,57 @@
+{
+    "patches": [
+        {
+            "bug_type": "unhandled_exception",
+            "pc": 404,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "DUP1 ISZERO ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "unhandled_exception",
+            "pc": 635,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "DUP1 ISZERO ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "unhandled_exception",
+            "pc": 866,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "DUP1 ISZERO ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "unhandled_exception",
+            "pc": 1097,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "DUP1 ISZERO ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        }
+    ],
+    "control_flow_graph_recovery_time": 0.02902960777282715,
+    "control_flow_graph_recovery": "93%",
+    "original_runtime_size": "1311 bytes",
+    "patched_runtime_size": "1359 bytes",
+    "execution_time": 0.0495457649230957
+}

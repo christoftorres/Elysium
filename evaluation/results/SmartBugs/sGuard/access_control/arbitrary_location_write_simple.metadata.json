@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/access_control/arbitrary_location_write_simple.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/access_control/arbitrary_location_write_simple.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/access_control/arbitrary_location_write_simple.sol.json",
+    "contractName": ""
+}

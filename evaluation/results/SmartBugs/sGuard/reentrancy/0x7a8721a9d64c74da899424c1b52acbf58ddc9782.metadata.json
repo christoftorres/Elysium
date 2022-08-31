@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x7a8721a9d64c74da899424c1b52acbf58ddc9782.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol.json",
+    "contractName": "PrivateDeposit"
+}

@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/integer_overflow/timelock.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/integer_overflow/timelock.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/integer_overflow/timelock.sol.json",
+    "contractName": ""
+}

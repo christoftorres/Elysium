@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x8c7777c45481dba411450c228cb692ac3d550344.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x8c7777c45481dba411450c228cb692ac3d550344.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x8c7777c45481dba411450c228cb692ac3d550344.sol.json",
+    "contractName": "ETH_VAULT"
+}

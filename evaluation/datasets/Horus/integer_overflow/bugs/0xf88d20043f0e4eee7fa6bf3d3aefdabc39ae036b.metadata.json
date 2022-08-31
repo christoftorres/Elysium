@@ -1,0 +1,1 @@
+{"Reentrancy": [], "IntegerBugs": [{"offset": 3398, "category": "sub"}, {"offset": 3613, "category": "sub"}, {"offset": 3475, "category": "add"}], "UnhandledExceptions": [], "AccessControl": []}

@@ -1,0 +1,57 @@
+{
+    "patches": [
+        {
+            "bug_type": "integer_overflow",
+            "pc": 1881,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "DUP2 DUP2 PUSH32_0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff SUB LT ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "integer_overflow",
+            "pc": 1942,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "DUP2 DUP2 PUSH32_0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff SUB LT ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "integer_undeflow",
+            "pc": 1958,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "DUP2 DUP2 LT ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "integer_undeflow",
+            "pc": 1985,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "DUP2 DUP2 LT ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        }
+    ],
+    "control_flow_graph_recovery_time": 0.1713399887084961,
+    "control_flow_graph_recovery": "91%",
+    "original_runtime_size": "2935 bytes",
+    "patched_runtime_size": "3055 bytes",
+    "execution_time": 0.26230502128601074
+}

@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/access_control/parity_wallet_bug_2.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/access_control/parity_wallet_bug_2.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/access_control/parity_wallet_bug_2.sol.json",
+    "contractName": ""
+}

@@ -1,0 +1,40 @@
+{
+    "Error": null,
+    "Timeout": false,
+    "Finished": true,
+    "Time": 0.02799081802368164,
+    "Reentrancy": [],
+    "IntegerBugs": [
+        {
+            "offset": 5076,
+            "category": "sub",
+            "result": "Done."
+        },
+        {
+            "offset": 4761,
+            "category": "sub",
+            "result": "Done."
+        },
+        {
+            "offset": 4689,
+            "category": "sub",
+            "result": "Done."
+        },
+        {
+            "offset": 4145,
+            "category": "add",
+            "result": "Done."
+        },
+        {
+            "offset": 4012,
+            "category": "sub",
+            "result": "Done."
+        },
+        {
+            "offset": 2241,
+            "category": "sub",
+            "result": "Done."
+        }
+    ],
+    "UnhandledExceptions": []
+}

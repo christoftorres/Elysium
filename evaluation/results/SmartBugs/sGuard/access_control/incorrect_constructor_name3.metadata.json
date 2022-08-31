@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/access_control/incorrect_constructor_name3.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/access_control/incorrect_constructor_name3.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/access_control/incorrect_constructor_name3.sol.json",
+    "contractName": ""
+}

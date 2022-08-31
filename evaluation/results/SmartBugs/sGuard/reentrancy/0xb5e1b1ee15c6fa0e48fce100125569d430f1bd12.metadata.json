@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol.json",
+    "contractName": "Private_Bank"
+}

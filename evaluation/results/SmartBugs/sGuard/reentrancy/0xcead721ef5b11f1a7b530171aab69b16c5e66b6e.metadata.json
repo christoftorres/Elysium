@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol.json",
+    "contractName": "WALLET"
+}

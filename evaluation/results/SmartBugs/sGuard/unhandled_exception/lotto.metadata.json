@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/unhandled_exception/lotto.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/unhandled_exception/lotto.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/unhandled_exception/lotto.sol.json",
+    "contractName": ""
+}

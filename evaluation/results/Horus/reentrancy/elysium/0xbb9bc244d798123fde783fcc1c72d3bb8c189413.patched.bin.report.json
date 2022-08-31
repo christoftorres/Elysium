@@ -1,0 +1,225 @@
+{
+    "patches": [
+        {
+            "bug_type": "reentrancy",
+            "pc": 1648,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x41 SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x41 SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 2798,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x41 SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x41 SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 3513,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x41 SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x41 SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 3553,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x41 SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 3894,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x41 SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x41 SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 7904,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x41 SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x41 SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                },
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x41 SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 8612,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x41 SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x41 SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 8618,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x41 SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 9331,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x41 SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x41 SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                },
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x41 SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 9691,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x41 SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x41 SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                },
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x41 SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 10645,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x41 SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 10799,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x41 SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 10244,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x42 SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x42 SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                },
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x42 SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 10367,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x43 SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x43 SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                },
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x43 SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 10491,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x44 SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x44 SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                },
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x44 SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        }
+    ],
+    "control_flow_graph_recovery_time": 49.5774142742157,
+    "control_flow_graph_recovery": "95%",
+    "original_runtime_size": "10838 bytes",
+    "patched_runtime_size": "11118 bytes",
+    "execution_time": 104.77617001533508
+}

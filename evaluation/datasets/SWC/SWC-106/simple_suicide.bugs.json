@@ -1,0 +1,9 @@
+[
+    {
+        "code_coverage": 93.02,
+        "execution_time": 14.014654874801636,
+        "tool": "Mythril",
+        "pc": 89,
+        "type": "suicidal"
+    }
+]

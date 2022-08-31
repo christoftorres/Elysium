@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol.json",
+    "contractName": ""
+}

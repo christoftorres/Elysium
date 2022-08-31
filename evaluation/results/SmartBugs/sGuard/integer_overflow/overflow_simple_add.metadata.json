@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/integer_overflow/overflow_simple_add.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/integer_overflow/overflow_simple_add.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/integer_overflow/overflow_simple_add.sol.json",
+    "contractName": ""
+}

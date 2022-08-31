@@ -1,0 +1,44 @@
+{
+    "patches": [
+        {
+            "bug_type": "integer_overflow",
+            "pc": 305,
+            "patch": {
+                "delete": "",
+                "insert": "DUP2 DUP2 PUSH32_0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff SUB LT ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1"
+            }
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 365,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x1 SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x1 SSTORE"
+                },
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x1 SSTORE"
+                }
+            ]
+        },
+        {
+            "bug_type": "unhandled_exception",
+            "pc": 365,
+            "patch": {
+                "delete": "",
+                "insert": "DUP1 ISZERO ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1"
+            }
+        },
+        {
+            "bug_type": "integer_overflow",
+            "pc": 389,
+            "patch": {
+                "delete": "",
+                "insert": "DUP2 DUP2 LT ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1"
+            }
+        }
+    ],
+    "control_flow_graph_recovery": "100%",
+    "execution_time": 37.30369019508362
+}

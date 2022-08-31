@@ -1,0 +1,10 @@
+[
+    {
+        "code_coverage": 91.5,
+        "execution_time": 90.0159318447113,
+        "tool": "Osiris",
+        "pc": 2362,
+        "type": "overflow",
+        "opcode": "MUL"
+    }
+]

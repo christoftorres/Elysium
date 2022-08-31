@@ -1,0 +1,87 @@
+{
+    "patches": [
+        {
+            "bug_type": "reentrancy",
+            "pc": 1792,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0xa SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0xa SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 2016,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0xa SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0xa SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 3168,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0xa SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0xa SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 3589,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0xa SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 4390,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0xa SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0xa SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                },
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0xa SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 5869,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0xa SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        }
+    ],
+    "control_flow_graph_recovery_time": 2.0059051513671875,
+    "control_flow_graph_recovery": "97%",
+    "original_runtime_size": "6062 bytes",
+    "patched_runtime_size": "6161 bytes",
+    "execution_time": 7.9147772789001465
+}

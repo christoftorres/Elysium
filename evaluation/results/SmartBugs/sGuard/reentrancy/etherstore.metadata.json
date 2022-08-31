@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/etherstore.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/etherstore.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/etherstore.sol.json",
+    "contractName": ""
+}

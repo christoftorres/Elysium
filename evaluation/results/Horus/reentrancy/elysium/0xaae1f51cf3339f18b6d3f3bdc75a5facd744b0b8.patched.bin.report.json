@@ -1,0 +1,27 @@
+{
+    "patches": [
+        {
+            "bug_type": "reentrancy",
+            "pc": 653,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x3 SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x3 SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                },
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x3 SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        }
+    ],
+    "control_flow_graph_recovery_time": 0.0337069034576416,
+    "control_flow_graph_recovery": "100%",
+    "original_runtime_size": "960 bytes",
+    "patched_runtime_size": "986 bytes",
+    "execution_time": 0.10120105743408203
+}

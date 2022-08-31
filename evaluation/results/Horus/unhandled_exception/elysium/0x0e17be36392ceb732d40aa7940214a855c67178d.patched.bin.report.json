@@ -1,0 +1,33 @@
+{
+    "patches": [
+        {
+            "bug_type": "unhandled_exception",
+            "pc": 156,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "DUP1 ISZERO ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "unhandled_exception",
+            "pc": 1712,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "DUP1 ISZERO ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        }
+    ],
+    "control_flow_graph_recovery_time": 0.012717723846435547,
+    "control_flow_graph_recovery": "100%",
+    "original_runtime_size": "438 bytes",
+    "patched_runtime_size": "449 bytes",
+    "execution_time": 0.020200490951538086
+}

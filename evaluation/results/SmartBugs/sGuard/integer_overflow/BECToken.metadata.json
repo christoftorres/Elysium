@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/integer_overflow/BECToken.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/integer_overflow/BECToken.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/integer_overflow/BECToken.sol.json",
+    "contractName": ""
+}

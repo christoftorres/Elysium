@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "bug_type": "suicidal",
+            "pc": 4107,
+            "patch": {
+                "delete": "",
+                "insert": "PUSH1_0x5 SLOAD PUSH20_0xffffffffffffffffffffffffffffffffffffffff AND CALLER EQ PUSH_jump_loc_1 JUMPI INVALID JUMPDEST_jump_loc_1"
+            }
+        }
+    ],
+    "control_flow_graph_recovery": "91%",
+    "execution_time": 59.308955907821655
+}

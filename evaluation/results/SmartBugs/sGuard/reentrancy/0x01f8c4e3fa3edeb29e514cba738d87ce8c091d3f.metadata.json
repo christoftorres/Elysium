@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol.json",
+    "contractName": "PERSONAL_BANK"
+}

@@ -1,0 +1,57 @@
+{
+    "patches": [
+        {
+            "bug_type": "integer_undeflow",
+            "pc": 1161,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "DUP2 DUP2 LT ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "integer_overflow",
+            "pc": 1176,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "DUP2 DUP2 PUSH32_0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff SUB LT ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "integer_undeflow",
+            "pc": 1206,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "DUP2 DUP2 LT ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "integer_overflow",
+            "pc": 1648,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "DUP2 DUP2 PUSH32_0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff SUB LT ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        }
+    ],
+    "control_flow_graph_recovery_time": 0.07023501396179199,
+    "control_flow_graph_recovery": "75%",
+    "original_runtime_size": "1741 bytes",
+    "patched_runtime_size": "1861 bytes",
+    "execution_time": 0.1306781768798828
+}

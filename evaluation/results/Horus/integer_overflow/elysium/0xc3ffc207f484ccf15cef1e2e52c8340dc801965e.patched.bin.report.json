@@ -1,0 +1,21 @@
+{
+    "patches": [
+        {
+            "bug_type": "integer_undeflow",
+            "pc": 6357,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "DUP2 DUP2 LT ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        }
+    ],
+    "control_flow_graph_recovery_time": 0.5791201591491699,
+    "control_flow_graph_recovery": "100%",
+    "original_runtime_size": "13138 bytes",
+    "patched_runtime_size": "13151 bytes",
+    "execution_time": 0.914592981338501
+}

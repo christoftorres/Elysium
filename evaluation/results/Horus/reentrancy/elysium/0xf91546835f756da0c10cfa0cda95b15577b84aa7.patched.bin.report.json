@@ -1,0 +1,159 @@
+{
+    "patches": [
+        {
+            "bug_type": "reentrancy",
+            "pc": 2415,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x2c SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x2c SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                },
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x2c SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 5773,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x2c SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x2c SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                },
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x2c SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 7546,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x2c SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x2c SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 7553,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x2c SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 10811,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x2c SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x2c SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 11630,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x2c SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 13257,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x2c SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x2c SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 13330,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x2c SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 14642,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x2c SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x2c SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 14690,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x2c SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        },
+        {
+            "bug_type": "reentrancy",
+            "pc": 15896,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x2c SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1 PUSH1_0x1 PUSH1_0x2c SSTORE",
+                    "insert_mode": "before",
+                    "constructor": false
+                },
+                {
+                    "delete": "",
+                    "insert": "PUSH1_0x0 PUSH1_0x2c SSTORE",
+                    "insert_mode": "after",
+                    "constructor": false
+                }
+            ]
+        }
+    ],
+    "control_flow_graph_recovery_time": 10.460210084915161,
+    "control_flow_graph_recovery": "90%",
+    "original_runtime_size": "17090 bytes",
+    "patched_runtime_size": "17272 bytes",
+    "execution_time": 12.559266090393066
+}

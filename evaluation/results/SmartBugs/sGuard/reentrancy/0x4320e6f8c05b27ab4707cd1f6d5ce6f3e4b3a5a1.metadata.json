@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol.json",
+    "contractName": "ACCURAL_DEPOSIT"
+}

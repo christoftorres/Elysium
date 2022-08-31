@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol.json",
+    "contractName": "BANK_SAFE"
+}

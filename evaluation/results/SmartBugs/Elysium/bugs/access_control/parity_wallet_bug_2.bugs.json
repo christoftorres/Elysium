@@ -1,0 +1,16 @@
+[
+    {
+        "code_coverage": 0.0,
+        "execution_time": 0.0,
+        "tool": "Mythril",
+        "pc": 2809,
+        "type": "leaking ether"
+    },
+    {
+        "code_coverage": 0.0,
+        "execution_time": 0.0,
+        "tool": "Mythril",
+        "pc": 4006,
+        "type": "suicidal"
+    }
+]

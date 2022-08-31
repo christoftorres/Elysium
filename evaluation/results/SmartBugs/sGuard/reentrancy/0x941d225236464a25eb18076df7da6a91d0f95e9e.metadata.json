@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x941d225236464a25eb18076df7da6a91d0f95e9e.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol.json",
+    "contractName": "ETH_FUND"
+}

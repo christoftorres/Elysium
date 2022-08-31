@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/reentrancy_bonus.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/reentrancy_bonus.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/reentrancy_bonus.sol.json",
+    "contractName": ""
+}

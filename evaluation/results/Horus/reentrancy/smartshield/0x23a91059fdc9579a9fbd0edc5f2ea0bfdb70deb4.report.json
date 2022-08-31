@@ -1,0 +1,15 @@
+{
+    "Error": null,
+    "Timeout": false,
+    "Finished": true,
+    "Time": 0.01704120635986328,
+    "Reentrancy": [
+        {
+            "callOffset": 408,
+            "sStoreOffset": 492,
+            "result": "Violating control flow dependencies. CALL: 0x198, lift: 0x1ec"
+        }
+    ],
+    "IntegerBugs": [],
+    "UnhandledExceptions": []
+}

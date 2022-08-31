@@ -1,0 +1,1 @@
+{"delete": "", "insert": "DUP1 ISZERO ISZERO PUSH_jump_loc_1 JUMPI error_handling_sequence JUMPDEST_jump_loc_1", "insert_mode": "after", "constructor": false}

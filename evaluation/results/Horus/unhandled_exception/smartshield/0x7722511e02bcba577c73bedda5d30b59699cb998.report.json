@@ -1,0 +1,9 @@
+{
+    "Error": "Stack overflow. pc: 0xedf",
+    "Timeout": false,
+    "Finished": false,
+    "Time": 2.7691705226898193,
+    "Reentrancy": [],
+    "IntegerBugs": [],
+    "UnhandledExceptions": []
+}

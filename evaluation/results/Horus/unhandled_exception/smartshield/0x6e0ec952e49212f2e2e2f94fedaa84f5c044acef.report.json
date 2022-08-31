@@ -1,0 +1,9 @@
+{
+    "Error": "Stack overflow. pc: 0x71c",
+    "Timeout": false,
+    "Finished": false,
+    "Time": 3.418419122695923,
+    "Reentrancy": [],
+    "IntegerBugs": [],
+    "UnhandledExceptions": []
+}

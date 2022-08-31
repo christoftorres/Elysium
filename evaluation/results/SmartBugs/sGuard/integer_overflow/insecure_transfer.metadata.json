@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/integer_overflow/insecure_transfer.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/integer_overflow/insecure_transfer.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/integer_overflow/insecure_transfer.sol.json",
+    "contractName": ""
+}

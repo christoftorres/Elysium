@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/integer_overflow/token.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/integer_overflow/token.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/integer_overflow/token.sol.json",
+    "contractName": ""
+}

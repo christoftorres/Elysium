@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/access_control/wallet_04_confused_sign.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/access_control/wallet_04_confused_sign.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/access_control/wallet_04_confused_sign.sol.json",
+    "contractName": ""
+}

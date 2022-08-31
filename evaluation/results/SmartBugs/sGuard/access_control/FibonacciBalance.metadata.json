@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/access_control/FibonacciBalance.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/access_control/FibonacciBalance.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/access_control/FibonacciBalance.sol.json",
+    "contractName": ""
+}

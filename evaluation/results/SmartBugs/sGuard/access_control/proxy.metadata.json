@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/access_control/proxy.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/access_control/proxy.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/access_control/proxy.sol.json",
+    "contractName": ""
+}

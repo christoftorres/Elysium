@@ -1,0 +1,9 @@
+{
+    "Error": "Invalid target address. addr: 0x478, source: 0x335",
+    "Timeout": false,
+    "Finished": false,
+    "Time": 0.3643169403076172,
+    "Reentrancy": [],
+    "IntegerBugs": [],
+    "UnhandledExceptions": []
+}

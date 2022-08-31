@@ -1,0 +1,9 @@
+{
+    "Error": "Error resolving JUMPI address. pc: 0x27, source: 0x26",
+    "Timeout": false,
+    "Finished": false,
+    "Time": 0.004700660705566406,
+    "Reentrancy": [],
+    "IntegerBugs": [],
+    "UnhandledExceptions": []
+}

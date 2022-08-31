@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/spank_chain_payment.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/spank_chain_payment.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/spank_chain_payment.sol.json",
+    "contractName": "LedgerChannel"
+}

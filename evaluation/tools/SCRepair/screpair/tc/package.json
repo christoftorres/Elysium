@@ -1,0 +1,20 @@
+{
+  "name": "tc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Xiao Liang <xiaoly@comp.nus.edu.sg>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "@types/lodash": "^4.14.120",
+    "p-map": "^2.1.0",
+    "mkdirp": "^0.5.1",
+    "@types/mkdirp": "^0.5.2",
+    "typescript": "^3.4.5",
+    "tslint": "^5.12.0",
+    "tslint-config-prettier": "^1.17.0",
+    "debug": "^4.1.1",
+    "tslint-immutable": "^5.0.0"
+  }
+}

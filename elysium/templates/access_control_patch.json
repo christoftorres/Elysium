@@ -1,0 +1,2 @@
+{"delete": "", "insert": "CALLER free_storage_location SSTORE", "insert_mode": "after", "constructor": true}
+{"delete": "", "insert": "free_storage_location SLOAD PUSH20_0xffffffffffffffffffffffffffffffffffffffff AND CALLER EQ PUSH_jump_loc_1 JUMPI error_handling_sequence JUMPDEST_jump_loc_1", "insert_mode": "before", "constructor": false}

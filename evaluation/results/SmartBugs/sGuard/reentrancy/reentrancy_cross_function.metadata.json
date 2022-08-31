@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/reentrancy_cross_function.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/reentrancy_cross_function.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/reentrancy_cross_function.sol.json",
+    "contractName": ""
+}

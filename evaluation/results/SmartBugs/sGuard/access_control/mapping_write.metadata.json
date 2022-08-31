@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/access_control/mapping_write.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/access_control/mapping_write.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/access_control/mapping_write.sol.json",
+    "contractName": ""
+}

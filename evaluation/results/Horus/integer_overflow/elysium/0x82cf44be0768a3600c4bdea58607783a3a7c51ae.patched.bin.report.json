@@ -1,0 +1,21 @@
+{
+    "patches": [
+        {
+            "bug_type": "integer_overflow",
+            "pc": 3750,
+            "patch": [
+                {
+                    "delete": "",
+                    "insert": "DUP2 DUP2 PUSH32_0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff SUB LT ISZERO PUSH_jump_loc_1 JUMPI PUSH1_0x0 DUP1 REVERT JUMPDEST_jump_loc_1",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        }
+    ],
+    "control_flow_graph_recovery_time": 58.70110821723938,
+    "control_flow_graph_recovery": "98%",
+    "original_runtime_size": "11752 bytes",
+    "patched_runtime_size": "11799 bytes",
+    "execution_time": 59.14596509933472
+}

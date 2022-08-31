@@ -1,0 +1,18 @@
+{
+    "patches": [
+        {
+            "bug_type": "transaction_origin",
+            "pc": 244,
+            "patch": [
+                {
+                    "delete": "ORIGIN",
+                    "insert": "CALLER",
+                    "insert_mode": "before",
+                    "constructor": false
+                }
+            ]
+        }
+    ],
+    "control_flow_graph_recovery": "100%",
+    "execution_time": 0.01883387565612793
+}

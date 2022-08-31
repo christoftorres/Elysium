@@ -1,0 +1,212 @@
+{
+    "BEC": {
+        "deployed_bytecode_size": 5777,
+        "evmpatch": {
+            "bytecode_size": 5836,
+            "size_increase": 59,
+            "size_increase_percent": 1.021291327678726,
+            "benign_success": 409836,
+            "benign_failed": 0,
+            "out_of_gas": 0,
+            "attacks_success": 0,
+            "attacks_failed": 1,
+            "gas_increase": 83.0,
+            "gas_increase_percent": 0.02258155355786182
+        },
+        "smartshield": {
+            "bytecode_size": 5807,
+            "size_increase": 30,
+            "size_increase_percent": 0.5193006750908776,
+            "benign_success": 409836,
+            "benign_failed": 0,
+            "out_of_gas": 0,
+            "attacks_success": 0,
+            "attacks_failed": 1,
+            "gas_increase": 80.0,
+            "gas_increase_percent": 0.02176535282685476
+        },
+        "elysium": {
+            "bytecode_size": 5803,
+            "size_increase": 26,
+            "size_increase_percent": 0.45006058507876057,
+            "benign_success": 409836,
+            "benign_failed": 0,
+            "out_of_gas": 0,
+            "attacks_success": 0,
+            "attacks_failed": 1,
+            "gas_increase": 67.0,
+            "gas_increase_percent": 0.018228482992490865
+        },
+        "benign": 409836,
+        "attacks": 1,
+        "transactions": 409837
+    },
+    "UET": {
+        "deployed_bytecode_size": 3555,
+        "evmpatch": {
+            "bytecode_size": 4205,
+            "size_increase": 650,
+            "size_increase_percent": 18.28410689170183,
+            "benign_success": 17947,
+            "benign_failed": 1,
+            "out_of_gas": 5722,
+            "attacks_success": 0,
+            "attacks_failed": 55,
+            "gas_increase": 236.69437817336515,
+            "gas_increase_percent": 0.7832809313914396
+        },
+        "smartshield": {
+            "bytecode_size": 3678,
+            "size_increase": 123,
+            "size_increase_percent": 3.459915611814346,
+            "benign_success": 17947,
+            "benign_failed": 1,
+            "out_of_gas": 5722,
+            "attacks_success": 0,
+            "attacks_failed": 55,
+            "gas_increase": 319.94127362818864,
+            "gas_increase_percent": 1.0599274889733072
+        },
+        "elysium": {
+            "bytecode_size": 3850,
+            "size_increase": 295,
+            "size_increase_percent": 8.29817158931083,
+            "benign_success": 17947,
+            "benign_failed": 1,
+            "out_of_gas": 5722,
+            "attacks_success": 0,
+            "attacks_failed": 55,
+            "gas_increase": 194.96867926836728,
+            "gas_increase_percent": 0.6459012492880386
+        },
+        "benign": 23670,
+        "attacks": 55,
+        "transactions": 23725
+    },
+    "HXG": {
+        "deployed_bytecode_size": 1771,
+        "evmpatch": {
+            "bytecode_size": 2270,
+            "size_increase": 499,
+            "size_increase_percent": 28.176171654432526,
+            "benign_success": 1248,
+            "benign_failed": 0,
+            "out_of_gas": 26,
+            "attacks_success": 0,
+            "attacks_failed": 10,
+            "gas_increase": 119.95862676056338,
+            "gas_increase_percent": 0.3039315503569282
+        },
+        "smartshield": {
+            "bytecode_size": 1834,
+            "size_increase": 63,
+            "size_increase_percent": 3.557312252964427,
+            "benign_success": 1248,
+            "benign_failed": 0,
+            "out_of_gas": 26,
+            "attacks_success": 0,
+            "attacks_failed": 10,
+            "gas_increase": 160.8943661971831,
+            "gas_increase_percent": 0.40749563044892856
+        },
+        "elysium": {
+            "bytecode_size": 1891,
+            "size_increase": 120,
+            "size_increase_percent": 6.775832862789384,
+            "benign_success": 1248,
+            "benign_failed": 0,
+            "out_of_gas": 26,
+            "attacks_success": 0,
+            "attacks_failed": 10,
+            "gas_increase": 89.94366197183099,
+            "gas_increase_percent": 0.2278076941352027
+        },
+        "benign": 1274,
+        "attacks": 10,
+        "transactions": 1284
+    },
+    "SCA": {
+        "deployed_bytecode_size": 10998,
+        "evmpatch": {
+            "bytecode_size": 12904,
+            "size_increase": 1906,
+            "size_increase_percent": 17.33042371340244,
+            "benign_success": 280,
+            "benign_failed": 0,
+            "out_of_gas": 0,
+            "attacks_success": 0,
+            "attacks_failed": 1,
+            "gas_increase": 47.0,
+            "gas_increase_percent": 0.016264370816543045
+        },
+        "smartshield": {
+            "bytecode_size": 11124,
+            "size_increase": 126,
+            "size_increase_percent": 1.1456628477905073,
+            "benign_success": 280,
+            "benign_failed": 0,
+            "out_of_gas": 0,
+            "attacks_success": 0,
+            "attacks_failed": 1,
+            "gas_increase": 0.0,
+            "gas_increase_percent": 0.0
+        },
+        "elysium": {
+            "bytecode_size": 11295,
+            "size_increase": 297,
+            "size_increase_percent": 2.7004909983633385,
+            "benign_success": 280,
+            "benign_failed": 0,
+            "out_of_gas": 0,
+            "attacks_success": 0,
+            "attacks_failed": 1,
+            "gas_increase": 0.0,
+            "gas_increase_percent": 0.0
+        },
+        "benign": 280,
+        "attacks": 1,
+        "transactions": 281
+    },
+    "SMT": {
+        "deployed_bytecode_size": 11059,
+        "evmpatch": {
+            "bytecode_size": 11155,
+            "size_increase": 96,
+            "size_increase_percent": 0.8680712541821142,
+            "benign_success": 34163,
+            "benign_failed": 0,
+            "out_of_gas": 0,
+            "attacks_success": 0,
+            "attacks_failed": 1,
+            "gas_increase": 47.0,
+            "gas_increase_percent": 0.09223037966309339
+        },
+        "smartshield": {
+            "bytecode_size": 11085,
+            "size_increase": 26,
+            "size_increase_percent": 0.23510263134098922,
+            "benign_success": 34163,
+            "benign_failed": 0,
+            "out_of_gas": 0,
+            "attacks_success": 0,
+            "attacks_failed": 1,
+            "gas_increase": 60.0,
+            "gas_increase_percent": 0.11774091020820429
+        },
+        "elysium": {
+            "bytecode_size": 11106,
+            "size_increase": 47,
+            "size_increase_percent": 0.4249932181933267,
+            "benign_success": 34163,
+            "benign_failed": 0,
+            "out_of_gas": 0,
+            "attacks_success": 0,
+            "attacks_failed": 1,
+            "gas_increase": 32.0,
+            "gas_increase_percent": 0.0627951521110423
+        },
+        "benign": 34163,
+        "attacks": 1,
+        "transactions": 34164
+    }
+}

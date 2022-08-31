@@ -1,0 +1,9 @@
+{
+    "Error": "Error resolving CODECOPY address. pc: 0x2db, source: 0x2d9",
+    "Timeout": false,
+    "Finished": false,
+    "Time": 0.003281116485595703,
+    "Reentrancy": [],
+    "IntegerBugs": [],
+    "UnhandledExceptions": []
+}

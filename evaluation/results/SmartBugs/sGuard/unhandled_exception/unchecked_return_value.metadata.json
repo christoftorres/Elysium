@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/unhandled_exception/unchecked_return_value.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/unhandled_exception/unchecked_return_value.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/unhandled_exception/unchecked_return_value.sol.json",
+    "contractName": ""
+}

@@ -1,0 +1,9 @@
+{
+    "Error": "Error resolving CODECOPY address. pc: 0x5389, source: 0x5387",
+    "Timeout": false,
+    "Finished": false,
+    "Time": 18.593831300735474,
+    "Reentrancy": [],
+    "IntegerBugs": [],
+    "UnhandledExceptions": []
+}

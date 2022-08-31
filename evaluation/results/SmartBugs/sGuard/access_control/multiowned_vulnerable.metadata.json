@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/access_control/multiowned_vulnerable.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/access_control/multiowned_vulnerable.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/access_control/multiowned_vulnerable.sol.json",
+    "contractName": ""
+}

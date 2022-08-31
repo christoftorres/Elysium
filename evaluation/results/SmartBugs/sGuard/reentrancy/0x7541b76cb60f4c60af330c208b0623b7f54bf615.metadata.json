@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x7541b76cb60f4c60af330c208b0623b7f54bf615.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/reentrancy/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol.json",
+    "contractName": "U_BANK"
+}

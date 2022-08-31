@@ -1,0 +1,6 @@
+{
+    "contractFile": "/evaluation/results/SmartBugs/sGuard/access_control/wallet_02_refund_nosub.sol",
+    "fixedFile": "/evaluation/results/SmartBugs/sGuard/access_control/wallet_02_refund_nosub.fixed.sol",
+    "jsonFile": "/evaluation/results/SmartBugs/sGuard/access_control/wallet_02_refund_nosub.sol.json",
+    "contractName": ""
+}

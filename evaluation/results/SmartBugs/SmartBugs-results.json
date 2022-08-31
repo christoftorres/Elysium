@@ -1,0 +1,62 @@
+{
+    "reentrancy": {
+        "contracts": 31,
+        "labeled_vulnerabilities": 32,
+        "reported_vulnerabilities": 29,
+        "validated_vulnerabilities": 28,
+        "smartshield_patched_vulnerabilities": 7,
+        "sguard_patched_vulnerabilities": 28,
+        "elysium_patched_vulnerabilities": 28,
+        "smartshield_size_increase": 23.0,
+        "smartshield_size_increase_percent": 7.339211403000196,
+        "sguard_size_increase": 170.67741935483872,
+        "sguard_size_increase_percent": 24.949302339537244,
+        "elysium_size_increase": 45.607142857142854,
+        "elysium_size_increase_percent": 8.353375571905412
+    },
+    "access_control": {
+        "contracts": 18,
+        "labeled_vulnerabilities": 19,
+        "reported_vulnerabilities": 12,
+        "validated_vulnerabilities": 12,
+        "smartshield_patched_vulnerabilities": 0,
+        "sguard_patched_vulnerabilities": 2,
+        "elysium_patched_vulnerabilities": 12,
+        "smartshield_size_increase": 0.0,
+        "smartshield_size_increase_percent": 0.0,
+        "sguard_size_increase": 168.66666666666666,
+        "sguard_size_increase_percent": 35.457053554495424,
+        "elysium_size_increase": 42.888888888888886,
+        "elysium_size_increase_percent": 12.239749196738106
+    },
+    "integer_overflow": {
+        "contracts": 15,
+        "labeled_vulnerabilities": 23,
+        "reported_vulnerabilities": 20,
+        "validated_vulnerabilities": 16,
+        "smartshield_patched_vulnerabilities": 16,
+        "sguard_patched_vulnerabilities": 3,
+        "elysium_patched_vulnerabilities": 16,
+        "smartshield_size_increase": 33.666666666666664,
+        "smartshield_size_increase_percent": 13.264576075938626,
+        "sguard_size_increase": 112.0,
+        "sguard_size_increase_percent": 24.7623459649773,
+        "elysium_size_increase": 52.666666666666664,
+        "elysium_size_increase_percent": 17.486288101360675
+    },
+    "unhandled_exception": {
+        "contracts": 52,
+        "labeled_vulnerabilities": 75,
+        "reported_vulnerabilities": 23,
+        "validated_vulnerabilities": 23,
+        "smartshield_patched_vulnerabilities": 22,
+        "sguard_patched_vulnerabilities": 0,
+        "elysium_patched_vulnerabilities": 23,
+        "smartshield_size_increase": 18.8,
+        "smartshield_size_increase_percent": 4.306890463511789,
+        "sguard_size_increase": 0.0,
+        "sguard_size_increase_percent": 0.0,
+        "elysium_size_increase": 12.35,
+        "elysium_size_increase_percent": 2.685277893888515
+    }
+}

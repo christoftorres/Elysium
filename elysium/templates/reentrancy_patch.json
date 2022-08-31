@@ -1,0 +1,2 @@
+{"delete": "", "insert": "free_storage_location SLOAD PUSH1_0x1 EQ ISZERO PUSH_jump_loc_1 JUMPI error_handling_sequence JUMPDEST_jump_loc_1 PUSH1_0x1 free_storage_location SSTORE", "insert_mode": "before", "constructor": false}
+{"delete": "", "insert": "PUSH1_0x0 free_storage_location SSTORE", "insert_mode": "after", "constructor": false}

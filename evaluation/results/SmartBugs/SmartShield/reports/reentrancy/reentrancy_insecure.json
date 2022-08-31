@@ -1,0 +1,15 @@
+{
+    "Error": null,
+    "Timeout": false,
+    "Finished": true,
+    "Time": 0.0061397552490234375,
+    "Reentrancy": [
+        {
+            "callOffset": 123,
+            "sStoreOffset": 158,
+            "result": "Done."
+        }
+    ],
+    "IntegerBugs": [],
+    "UnhandledExceptions": []
+}

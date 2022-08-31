@@ -1,0 +1,23 @@
+[
+    {
+        "code_coverage": 0.0,
+        "execution_time": 0.0,
+        "tool": "Mythril",
+        "pc": 804,
+        "type": "unhandled exception"
+    },
+    {
+        "code_coverage": 0.0,
+        "execution_time": 0.0,
+        "tool": "Mythril",
+        "pc": 889,
+        "type": "unhandled exception"
+    },
+    {
+        "code_coverage": 0.0,
+        "execution_time": 0.0,
+        "tool": "Mythril",
+        "pc": 1553,
+        "type": "unhandled exception"
+    }
+]

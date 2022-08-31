@@ -1,0 +1,30 @@
+{
+    "Error": null,
+    "Timeout": false,
+    "Finished": true,
+    "Time": 0.06811046600341797,
+    "Reentrancy": [],
+    "IntegerBugs": [
+        {
+            "offset": 1648,
+            "category": "add",
+            "result": "Done."
+        },
+        {
+            "offset": 1206,
+            "category": "sub",
+            "result": "Done."
+        },
+        {
+            "offset": 1176,
+            "category": "add",
+            "result": "Done."
+        },
+        {
+            "offset": 1161,
+            "category": "sub",
+            "result": "Done."
+        }
+    ],
+    "UnhandledExceptions": []
+}

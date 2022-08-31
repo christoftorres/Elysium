@@ -1,0 +1,1 @@
+{"delete": "", "insert": "DUP2 DUP2 MUL integer_bounds AND DUP3 ISZERO DUP1 PUSH_jump_loc_1 JUMPI POP DUP3 SWAP1 DIV DUP2 EQ DUP1 JUMPDEST_jump_loc_1 SWAP1 POP PUSH_jump_loc_2 JUMPI error_handling_sequence JUMPDEST_jump_loc_2", "insert_mode": "before", "constructor": false}
