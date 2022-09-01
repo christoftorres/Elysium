@@ -13,9 +13,10 @@ Download and install Docker Desktop for Mac: https://docs.docker.com/desktop/mac
 
 For other operating systems follow the installation instructions on [docker.com](https://docs.docker.com/desktop/).
 
-### 2. Install solc-select
+### 2. Install required tools
 
 ``` shell
+python3 -m pip install maturin
 python3 -m pip install solc-select
 ```
 
