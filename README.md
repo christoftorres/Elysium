@@ -13,12 +13,19 @@ Download and install Docker Desktop for Mac: https://docs.docker.com/desktop/mac
 
 For other operating systems follow the installation instructions on [docker.com](https://docs.docker.com/desktop/).
 
-### 2. Install required tools
+### 2. Install Rust nightly version
+
+##### MacOS/Linux
 
 ``` shell
-python3 -m pip install maturin
-python3 -m pip install solc-select
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+rustup toolchain install nightly
+rustup override set nightly
 ```
+
+Please also configure the ```PATH``` environment variable.
+
+For more details or other operating systems please follow the installation instructions on [rust-lang.org](https://www.rust-lang.org/tools/install).
 
 ### 3. Install Python dependencies
 
