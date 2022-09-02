@@ -4,4 +4,4 @@ py-solc-x==1.0.0
 web3==5.30.0
 docker==6.0.0
 numpy==1.22.3
-tqdm==4.51.0
+tqdm>=4.51.0
