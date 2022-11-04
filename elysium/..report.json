@@ -1,5 +1,0 @@
-{
-    "patches": [],
-    "control_flow_graph_recovery": "AttributeError(\"'NoneType' object has no attribute 'start'\")",
-    "execution_time": 0.04886603355407715
-}
